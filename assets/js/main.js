@@ -14,9 +14,14 @@ const userSurname = prompt('Il tuo cognome');
 
 const userFavColor = prompt('Il tuo colore preferito');
 
+//chiedere il giorno di nascita
+
+const userBirthDay = prompt('Il tuo giorno di nascita');
+
+
 //concatenare le stringhe
 
-const userPassword = userName + userSurname + userFavColor + 23;
+const userPassword = userName + userSurname + userFavColor + ( Number(userBirthDay) + 23);
 
 const assignedPassword = document.getElementById('passwordGenerate');
 
