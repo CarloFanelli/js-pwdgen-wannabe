@@ -18,12 +18,12 @@ const userFavColor = prompt('Il tuo colore preferito');
 
 const userPassword = userName + userSurname + userFavColor + 23;
 
-//stampare in console
-
 const assignedPassword = document.getElementById('passwordGenerate');
+
+//stampare in console
 
 console.log(userPassword);
 
 //stampare in pagina
 
-assignedPassword.innerHTML = userPassword
+assignedPassword.innerHTML = userPassword;
